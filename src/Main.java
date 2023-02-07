@@ -12,6 +12,18 @@ public class Main {
         task7();
         task8();
         task9();
+        task10();
+    }
+
+    private static void task10() {
+        System.out.println("Задача 10");
+
+        for (int i = 1; i <= 10; i++) {
+            for (int j = 1; j <= 10; j++) {
+              int rez = i * j;
+                System.out.println(i + " x " + j + " = " + rez);
+            }
+        }
     }
 
     private static void task9() {
